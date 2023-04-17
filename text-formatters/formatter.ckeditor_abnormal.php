@@ -2,10 +2,10 @@
 
 	require_once('default.ckeditor.php');
 
-	Class formatterckeditor_minimal extends DefaultTextFormatter {
+	Class formatterckeditor_abnormal extends DefaultTextFormatter {
 		public function about(){
 			$about = parent::about();
-			$about['name'] = 'CKEditor : Minimal';
+			$about['name'] = 'CKEditor : Abnormal';
 			return $about;
 		}
 	}
